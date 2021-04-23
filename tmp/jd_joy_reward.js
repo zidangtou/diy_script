@@ -90,7 +90,8 @@ Date.prototype.Format = function (fmt) { //author: meizz
       }
       // console.log(`本地时间与京东服务器时间差(毫秒)：${await get_diff_time()}`);
       console.log(`脚本开始请求时间 ${(new Date()).Format("yyyy-MM-dd hh:mm:ss | S")}`);
-      await joyReward();
+      // await joyReward();
+      await exchange('343', 'pet');
     }
   }
   if ($.isNode() && allMessage && $.ctrTemp) {
